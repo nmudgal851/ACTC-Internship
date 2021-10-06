@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Varela Round", sans-serif;
+}
+header {
+}
+.download_options_link {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(255, 255, 255);
+  height: 2.7vw;
+  align-items: center;
+  padding-right: 5vw;
+}
+.social_links {
+  display: flex;
+  font-size: 1.1vw;
+  color: orange;
+  padding-right: 4vw;
+
+  align-items: center;
+}
+.social_links p {
+  margin-bottom: 0;
+  color: orange;
+  font-size: 1vw;
+}
+.social_icons svg {
+  color: orange;
+  margin-left: 1vw;
+}
+.social_icons svg:hover {
+  font-size: 1.3vw;
+}
+.download_app_btn {
+  border-radius: 0.4vw;
+  background-color: orange;
+  border: none;
+  outline: none;
+  height: 2vw;
+  padding: 0.3vw 0.7vw;
+  transition: 0.3s all ease-in-out;
+  font-size: 0.8vw;
+  color: white;
+}
+
+.download_app_btn:hover {
+  color: orange;
+  border: 0.1vw solid orange;
+  background-color: white;
+}
+.navbar-brand img {
+  height: 4vw;
+  padding-right: 5vw;
+}
+.nav-link svg,
+p {
+  color: black;
+  font-size: 1.2vw;
+  font-weight: 400;
+}
+.nav-item {
+  width: 8vw;
+  margin-right: 1vw;
+  margin-top: 1vw;
+}
+.nav-link {
+  text-align: center;
+  color: black;
+}
+.navbar-nav {
+  margin-left: 5vw;
+}
+
+.navbar {
+  padding-left: 2vw;
+
+  padding-right: 0vw;
+  height: 6.5vw;
+  align-items: center;
+  /* background-color: black; */
+  box-shadow: 10px 5px 40px rgba(255, 166, 0, 0.354);
+}
+.d-flex {
+  box-shadow: 20px 20px 50px orange;
+  border-radius: 0.5vw;
+}
+.search-btn {
+  outline: none;
+  border: none;
+  background-color: orange;
+  color: white;
+  width: 5vw;
+  height: 2.5vw;
+  border-radius: 0.5vw;
+  font-size: 1.5vw;
+}
+.search_bar {
+  outline: none;
+  color: orange;
+  border: none;
+  background-color: rgba(245, 225, 187, 0.061);
+  width: 15vw;
+  height: 2.5vw;
+  padding-left: 1vw;
+}
+.category_selector {
+  color: orange;
+  outline: none;
+  border: none;
+}
+.search_bar::placeholder {
+  color: orange;
+}
+.left-right-container {
+  display: flex;
+}
+.left-section {
+  background-color: rgba(255, 179, 57);
+  position: relative;
+  width: 40vw;
+  height: 40vw;
+}
+.left-section img {
+  height: 27.2vw;
+  width: 100%;
+  position: absolute;
+  transform: rotate(90deg);
+  top: 16%;
+  right: -55%;
+}
+.left-text {
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+.left-text h1 {
+  font-size: 5vw;
+  line-height: 5vw;
+}
+.left-text h1 span {
+  color: white;
+}
+.offer-para {
+  color: white;
+}
+.right_navbar {
+  /* background-color: violet; */
+  height: 5vw;
+  padding-left: 15vw;
+  padding-top: 2vw;
+  width: 60vw;
+}
+.right_navbar ul {
+  display: flex;
+  list-style-type: none;
+}
+.right_navbar ul li {
+  margin-left: 2.5vw;
+  cursor: pointer;
+}
+.line1 {
+  height: 0.5vw;
+  width: 5vw;
+  background-color: black;
+  border-radius: 1vw;
+  cursor: default;
+}
+.line2 {
+  height: 0.5vw;
+  width: 3vw;
+  margin-left: 2vw;
+  background-color: orange;
+  margin-top: 0.5vw;
+  border-radius: 1vw;
+  cursor: default;
+}
+.active_right_navbar_list {
+  border-bottom: 2px solid orange;
+  color: orange;
+}
+.carousel {
+  height: 40vw;
+  width: 50vw;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10vw;
+  display: flex;
+  margin-top: -2vw;
+  position: relative;
+}
+.carousel img {
+  height: 25vw;
+  width: 25vw;
+}
+.carousel-inner {
+  height: 30vw;
+  width: fit-content !important;
+}
+.carousel button {
+  height: fit-content;
+  position: absolute;
+  top: 50%;
+}
+.carousel-control-next svg {
+  color: orange;
+  height: 2.5vw;
+}
+.carousel-control-prev svg {
+  color: orange;
+  height: 2.5vw;
+}
+
+.carousel-control-next {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.shop_now_btn {
+  position: absolute;
+  bottom: 3%;
+  right: 25%;
+  background-color: orange;
+  outline: none;
+  border: none;
+  padding: 0.5vw 1vw;
+  border-radius: 0.5vw;
+  color: white;
+  transition: 0.3s all ease-in-out;
+}
+.shop_now_btn:hover {
+  color: orange;
+  border: 0.1vw solid orange;
+  background-color: white;
+}
